@@ -11,11 +11,13 @@
     import store from '../lib/store'
     import obseriot from 'obseriot'
 
+    const weatherListener = state => this.update( { weather: state } )
+
     this.weather = false
 
-    obseriot.listen( store.weather, state => {
-      this.update( { weather: state } )
-    } )
+    obseriot.listen( store.weather, weatherListener )
+
+    this.on( 'unmount', () => obseriot.remove( store.weather, weatherListener ) )
   </script>
 
 </results-weather>
