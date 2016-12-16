@@ -1,6 +1,6 @@
 <input-city>
 
-  <input type="text" onchange="{ search }">
+  <input type="text" onchange="{ search }" placeholder="city...">
 
   <script>
     import action from '../lib/action'
