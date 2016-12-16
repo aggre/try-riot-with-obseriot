@@ -7,12 +7,12 @@ import multiEntry from 'rollup-plugin-multi-entry'
 export default {
   entry: [ 'src/js/**/*.js', 'src/tag/**/*.tag', 'src/main.js' ],
   dest: 'dist/bundle.js',
+  format: 'iife',
   plugins: [
     riot(),
     nodeResolve( { jsnext: true } ),
     multiEntry( { exports: false } ),
     commonjs(),
     buble()
-  ],
-  format: 'iife'
+  ]
 }
