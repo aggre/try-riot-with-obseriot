@@ -12,4 +12,13 @@
     }
   </script>
 
+  <style>
+    input {
+      width: 100%;
+      padding: 0.5rem;
+      font-size: 1rem;
+      box-sizing: border-box;
+    }
+  </style>
+
 </input-city>
