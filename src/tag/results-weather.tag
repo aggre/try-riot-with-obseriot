@@ -1,9 +1,11 @@
 <results-weather>
 
-  <h1>{ weather.location.city }</h1>
-  <ul>
-    <li each="{ weather.item.forecast }">{ date } ( { day } ): { text }</li>
-  </ul>
+  <div if="{ weather }">
+    <h1>{ weather.location.city }</h1>
+    <ul>
+      <li each="{ weather.item.forecast }">{ date } ( { day } ): { text }</li>
+    </ul>
+  </div>
 
   <script>
     import store from '../lib/store'
