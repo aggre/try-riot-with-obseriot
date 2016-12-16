@@ -22,7 +22,6 @@
     "rollup-plugin-riot": "^1.0.0"
   },
   "license": "MIT",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@gitlab.com/aggre/try-riot-with-obseriot.git"
