@@ -4,10 +4,11 @@
   "description": "Try Riot with Obseriot",
   "private": true,
   "scripts": {
-    "start": "npm run watch & npm run server",
+    "start": "node server.js",
     "build": "rollup -c config/rollup.config.js"
   },
   "dependencies": {
+    "express": "^4.14.0",
     "obseriot": "^0.3.5",
     "qs": "^6.3.0",
     "riot": "^3.0.1"
