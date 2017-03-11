@@ -22,13 +22,14 @@
     "rollup-plugin-riot": "^1.0.0"
   },
   "license": "MIT",
+  "author": "aggre",
+  "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/aggre/try-riot-with-obseriot.git"
+    "url": "git+https://github.com/aggre/try-riot-with-obseriot.git"
   },
-  "author": "aggre",
   "bugs": {
-    "url": "https://gitlab.com/aggre/try-riot-with-obseriot/issues"
+    "url": "https://github.com/aggre/try-riot-with-obseriot/issues"
   },
-  "homepage": "https://gitlab.com/aggre/try-riot-with-obseriot#README"
+  "homepage": "https://github.com/aggre/try-riot-with-obseriot#readme"
 }
